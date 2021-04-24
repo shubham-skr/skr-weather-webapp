@@ -1,15 +1,15 @@
 // npm modules
 const axios = require("axios");
 
-// API key javascript file
-const keys = require("./API_keys")
+// API Key config file 
+const config = require('../../config');
 
 // Fetch and return longitude and latitude of the given location
 const geocode = async (address) => {
   let geocodeUrl =
     "https://api.mapbox.com/geocoding/v5/mapbox.places/" +
     address +
-    ".json?limit=1&access_token=" + keys.geocodeKey;
+    ".json?limit=1&access_token=" + config.geocodeKey;
   
   const response = await axios.get(geocodeUrl);
   

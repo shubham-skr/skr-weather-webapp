@@ -1,8 +1,8 @@
 // npm module
 const axios = require("axios");
 
-// API key javascipt file
-const keys = require('./API_keys')
+// API Key config file 
+const config = require('../../config');  
 
 // Fetch and return the weather of the given coordinates
 const forecast = async (latitude, longitude) => {
@@ -11,7 +11,7 @@ const forecast = async (latitude, longitude) => {
     latitude +
     "&lon=" +
     longitude +
-    "&units=metric&appid=" + keys.weatherKey;
+    "&units=metric&appid=" + config.weatherKey;
   
   const response = await axios.get(weatherUrl);
   
