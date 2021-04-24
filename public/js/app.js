@@ -54,7 +54,7 @@ weatherForm.addEventListener('submit', (e) => {
     weatherLocation.textContent = "Just a second";
 
     // Fetching the weather data and displaying weather or error message
-    fetch('http://localhost:3000/weather?address=' + location).then((response) => {
+    fetch('/weather?address=' + location).then((response) => {
         response.json().then((data) => {
             if (data.error) {
                 weatherIcon.innerHTML = "<img src=\"/img/sleep.png\">"
