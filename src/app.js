@@ -50,17 +50,17 @@ app.get('/weather', (req, res) => {
     }
     
     geocode(req.query.address)
-        .then(({ location, longitude, latitude }) => {
+        .then(({ longitude, latitude }) => {
             forecast(latitude, longitude)
-              .then(({ temperature }) => {
-                res.send({temp: temperature});
+              .then(weatherData => {
+                res.send(weatherData);
               })
               .catch((err) => {
-                res.send({error: "Unable to get weather for the given location"});
+                res.send({error: "Weather Not Found"});
               });
         })
         .catch((err) => {
-            res.send({error: "Unable to get coordinates for the given location"});
+            res.send({error: "Location Not Found"});
         });
 });
 

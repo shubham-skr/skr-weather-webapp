@@ -1,4 +1,5 @@
 const axios = require("axios");
+const keys = require('./API_keys')
 
 const forecast = async (latitude, longitude) => {
   let weatherUrl =
@@ -6,12 +7,15 @@ const forecast = async (latitude, longitude) => {
     latitude +
     "&lon=" +
     longitude +
-    "&units=metric&appid=5c14a534276a76eb2f5fee1d215c13eb";
+    "&units=metric&appid=" + keys.weatherKey;
   
   const response = await axios.get(weatherUrl);
   
   return {
-    weather: response.data.weather[0].main,
+    country: response.data.sys.country,
+    location: response.data.name,
+    weather: response.data.weather[0].description,
+    icon: response.data.weather[0].icon,
     temperature: response.data.main.temp,
     tempMin: response.data.main.temp_min,
     tempMax: response.data.main.temp_max,
