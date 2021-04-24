@@ -2,7 +2,7 @@
 const axios = require("axios");
 
 // API Key config file 
-const config = require('../../config');  
+const config = require('../../.config');  
 
 // Fetch and return the weather of the given coordinates
 const forecast = async (latitude, longitude) => {

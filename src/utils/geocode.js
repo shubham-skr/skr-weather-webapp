@@ -2,7 +2,7 @@
 const axios = require("axios");
 
 // API Key config file 
-const config = require('../../config');
+const config = require('../../.config');
 
 // Fetch and return longitude and latitude of the given location
 const geocode = async (address) => {
