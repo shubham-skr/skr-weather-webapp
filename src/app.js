@@ -1,6 +1,11 @@
+// Node JS core modules
 const path = require('path');
+
+// NPM modules
 const express = require('express');
 const hbs = require('hbs');
+
+// Custom javascript files
 const geocode = require('./utils/geocode');
 const forecast = require('./utils/forecast');
 
@@ -20,38 +25,38 @@ hbs.registerPartials(partialsPath);
 // Setup static directory to serve
 app.use(express.static(publicDirPath));
 
+// Home page
 app.get('', (req, res) => {
-    res.render('index', {
-        title: 'Weather',
-        name: 'Shubham'
+    res.render('home', {
+        title: 'Weather'
     });
 });
 
+// About page
 app.get('/about', (req, res) => {
     res.render('about', {
-        title: 'About',
-        name: 'Shubham'
+        title: 'About'
     });
 });
 
+// Help page
 app.get('/help', (req, res) => {
     res.render('help', {
-        title: 'Help',
-        helpText: 'This is help',
-        name: 'Shubham'
+        title: 'Help'
     });
 });
 
+// Accessing and sending weather data
 app.get('/weather', (req, res) => {
     if (!req.query.address) {
         return res.send({
-            error: 'You must provide the address'
+            error: 'Enter Location'
         });
     }
     
-    geocode(req.query.address)
+    geocode(req.query.address)      // getting coordinates from geocode.js
         .then(({ longitude, latitude }) => {
-            forecast(latitude, longitude)
+            forecast(latitude, longitude)       // getting weather from forecast.js
               .then(weatherData => {
                 res.send(weatherData);
               })
@@ -64,22 +69,14 @@ app.get('/weather', (req, res) => {
         });
 });
 
-app.get('/help/*', (req, res) => {
-    res.render('404', {
-        title: '404',
-        name: 'Shubham',
-        errorMessage: 'Help article not found'
-    });
-});
-
+// 404 page
 app.get('*', (req, res) => {
     res.render('404', {
-        title: '404',
-        name: 'Shubham',
-        errorMessage: 'Page not found'
+        title: '404'
     });
 });
 
+// Start the server
 app.listen(3000, () => {
     console.log('Server is up on port 3000');
 });

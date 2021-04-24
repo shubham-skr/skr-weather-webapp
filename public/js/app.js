@@ -1,3 +1,5 @@
+/* Icons Object with key as OpenWeather icon ID and value as an array of
+   corresponding fontawesome icon and color */ 
 const iconObj = {
     "01d": ["<i class=\"fas fa-sun\"></i>", "#ffd700"],
     "01n": ["<i class=\"fas fa-sun\"></i>", "#ffd700"],
@@ -19,8 +21,10 @@ const iconObj = {
     "50n": ["<i class=\"fas fa-smog\"></i>", "#c0c0c0"],
 };
 
+// Array of months name
 const monthName = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
 
+// All required elements to display weather data
 const weatherForm = document.querySelector('form');
 const search = document.querySelector('input');
 const weatherIcon = document.querySelector('.weather-icon');
@@ -33,18 +37,23 @@ const maxTemp = document.querySelector('.max-temp span');
 const windSpeed = document.querySelector('.wind-speed span'); 
 const humidity = document.querySelector('.humidity span'); 
 
+// Display today's date in MM DD, YYYY format
 const date = new Date();
 time.innerHTML = monthName[date.getMonth()] + "&nbsp;" + date.getDate() +  ",&nbsp;" + date.getFullYear(); 
 
+// On submitting the Location
 weatherForm.addEventListener('submit', (e) => {
     e.preventDefault();
 
+    // get given location
     const location = search.value;
 
+    // When the weather is loading 
     temp.innerHTML = "<i class=\"fas fa-wind\"></i>";
     condition.textContent = 'Loading...';
     weatherLocation.textContent = "Just a second";
 
+    // Fetching the weather data and displaying weather or error message
     fetch('http://localhost:3000/weather?address=' + location).then((response) => {
         response.json().then((data) => {
             if (data.error) {
@@ -69,15 +78,4 @@ weatherForm.addEventListener('submit', (e) => {
             }
         });
     });
-});
-
-
-
-// Active toggle and header menu 
-const headerToggle = document.querySelector('.header-toggle');
-const headerMenu = document.querySelector('.header-menu');
-
-headerToggle.addEventListener('click', () => {
-    headerToggle.classList.toggle('active-toggle');
-    headerMenu.classList.toggle('active-header-menu');
 });

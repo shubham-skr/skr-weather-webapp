@@ -1,6 +1,10 @@
+// npm module
 const axios = require("axios");
+
+// API key javascipt file
 const keys = require('./API_keys')
 
+// Fetch and return the weather of the given coordinates
 const forecast = async (latitude, longitude) => {
   let weatherUrl =
     "https://api.openweathermap.org/data/2.5/weather?lat=" +
