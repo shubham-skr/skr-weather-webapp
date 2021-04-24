@@ -1,3 +1,2 @@
 node_modules
-
-./src/utils/API_keys.js
+/src/utils/API_keys.js
