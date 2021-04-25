@@ -12,7 +12,7 @@
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
-  
+
   <!-- Custom CSS -->
   <link rel="stylesheet" href="/css/style.css">
 </head>
@@ -22,28 +22,30 @@
   <div class="main-container">
     {{>header}}
 
-    <div class="help-card">
-      <div class="help-img">
-        <img src="/img/help.png" alt="help">
-      </div>
+    <div class="main-content">
+      <div class="help-card">
+        <div class="help-img">
+          <img src="/img/help.png" alt="help">
+        </div>
 
-      <div class="help-content">
-        <h1 class="help-title">Help</h1>
-        <p class="help-text">To get weather of your location :</p>
-        <ol class="help-list">
-          <li>Enter your location in the location input box</li>
-          <li>Try to be very specific about your location</li>
-          <li>Click the search button</li>
-          <li>You will get your weather data</li>
-          <ol />
-          <p class="help-text">Didn't get the weather ?</p>
+        <div class="help-content">
+          <h1 class="help-title">Help</h1>
+          <p class="help-text">To get weather of your location :</p>
           <ol class="help-list">
-            <li>"Loading..." means your weather is being fetched</li>
-            <li>If you are not specific about your location then the weather may not be accurate</li>
-            <li>"Location Not Found" means the coordinates of your location can't be found</li>
-            <li>"Weather Not Found" means the weather data of your location is not available</li>
-            <li>"404" means the page you are trying to access is not there</li>
-          </ol>
+            <li>Enter your location in the location input box</li>
+            <li>Try to be very specific about your location</li>
+            <li>Click the search button</li>
+            <li>You will get your weather data</li>
+            <ol />
+            <p class="help-text">Didn't get the weather ?</p>
+            <ol class="help-list">
+              <li>"Loading..." means your weather is being fetched</li>
+              <li>If you are not specific about your location then the weather may not be accurate</li>
+              <li>"Location Not Found" means the coordinates of your location can't be found</li>
+              <li>"Weather Not Found" means the weather data of your location is not available</li>
+              <li>"404" means the page you are trying to access is not there</li>
+            </ol>
+        </div>
       </div>
     </div>
 

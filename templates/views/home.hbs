@@ -30,42 +30,44 @@
     {{>header}}
     <!-- HEADER END -->
 
-    <!-- WEATHER-SEARCH START -->
-    <div class="weather-search container">
-      <form>
-        <label for="location">Location :</label>
-        <input type="text" id="location" name="Location" placeholder="e.g Kolkata, India">
-        <button>Search</button>
-      </form>
-    </div>
-    <!-- WEATHER-SEARCH END -->
+    <div class="main-content container">
+      <!-- WEATHER-SEARCH START -->
+      <div class="weather-search">
+        <form>
+          <label for="location">Location :</label>
+          <input type="text" id="location" name="Location" placeholder="e.g Kolkata, India">
+          <button>Search</button>
+        </form>
+      </div>
+      <!-- WEATHER-SEARCH END -->
 
-    <!-- WEATHER-CARD START -->
-    <div class="weather-card">
-      <div class="weather-icon">
-        <img src="/img/sleep.png">
+      <!-- WEATHER-CARD START -->
+      <div class="weather-card">
+        <div class="weather-icon">
+          <img src="/img/sleep.png">
+        </div>
+        <div class="weather-info">
+          <h1 class="weather-temp"><i class="fas fa-wind"></i></h1>
+          <h2 class="weather-condition">Enter Location</h2>
+          <span class="weather-location">Get Weather</span>
+          <span class="vertical-bar">|</span>
+          <span class="weather-time"></span>
+        </div>
       </div>
-      <div class="weather-info">
-        <h1 class="weather-temp"><i class="fas fa-wind"></i></h1>
-        <h2 class="weather-condition">Enter Location</h2>
-        <span class="weather-location">Get Weather</span>
-        <span class="vertical-bar">|</span>
-        <span class="weather-time"></span>
-      </div>
-    </div>
-    <!-- WEATHER-CARD END -->
+      <!-- WEATHER-CARD END -->
 
-    <!-- WEATHER-DETAILS START -->
-    <div class="weather-details container">
-      <h4 class="details-title">More Details </h4>
-      <div class="details-content">
-        <h4 class="min-temp">Minimum Temperature : <span>_ </span>°C</h4>
-        <h4 class="max-temp">Maximum Temperature : <span>_ </span>°C</h4>
-        <h4 class="wind-speed">Wind Speed : <span>_ </span> Km/h</h4>
-        <h4 class="humidity">Humidity : <span>_ </span>%</h4>
+      <!-- WEATHER-DETAILS START -->
+      <div class="weather-details">
+        <h4 class="details-title">More Details </h4>
+        <div class="details-content">
+          <h4 class="min-temp">Minimum Temperature : <span>_ </span>°C</h4>
+          <h4 class="max-temp">Maximum Temperature : <span>_ </span>°C</h4>
+          <h4 class="wind-speed">Wind Speed : <span>_ </span> Km/h</h4>
+          <h4 class="humidity">Humidity : <span>_ </span>%</h4>
+        </div>
       </div>
+      <!-- WEATHER-DETAILS END -->
     </div>
-    <!-- WEATHER-DETAILS END -->
 
     <!-- FOOTER START -->
     {{>footer}}
