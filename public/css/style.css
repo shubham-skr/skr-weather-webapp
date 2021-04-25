@@ -5,13 +5,19 @@
   --card-bg: #fff;
 }
 
-/*=== COMMON CSS ===*/
+/*=== GLOBAL CSS ===*/
 *,
 ::after,
 ::before {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+input,
+button,
+a {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 body {
@@ -136,7 +142,7 @@ button {
   outline: none;
   border: 0.2rem solid var(--primary-color);
   border-radius: 0.2rem;
-  transition: all .5s ease;
+  transition: all 0.5s ease;
 }
 
 button:hover {
