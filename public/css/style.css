@@ -301,7 +301,7 @@ button:hover {
 
 .about-title,
 .help-title {
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 
 .error-title {
@@ -318,6 +318,10 @@ button:hover {
 .help-text {
   margin-top: 1.5rem;
   font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.about-text {
   font-weight: 600;
 }
 
@@ -352,6 +356,7 @@ button:hover {
   justify-content: center;
   font-size: 0.65rem;
   font-weight: 700;
+  letter-spacing: .5px;
   background-color: var(--primary-color);
 }
 
