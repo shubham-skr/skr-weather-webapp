@@ -394,7 +394,7 @@ button:hover {
     height: 100vh;
     padding: 4rem 0;
     text-align: center;
-    background: rgba(0, 0, 0, 0.9);
+    background: rgb(0, 0, 0);
   }
 
   .menu-list-item {
