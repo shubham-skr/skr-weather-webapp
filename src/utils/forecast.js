@@ -1,8 +1,6 @@
 // npm module
-const axios = require("axios");
-
-// API Key config file 
-const config = require('../../.config');  
+const axios = require("axios");  
+require('dotenv').config();
 
 // Fetch and return the weather of the given coordinates
 const forecast = async (latitude, longitude) => {
@@ -11,7 +9,7 @@ const forecast = async (latitude, longitude) => {
     latitude +
     "&lon=" +
     longitude +
-    "&units=metric&appid=" + config.weatherKey;
+    "&units=metric&appid=" + process.env.WEATHER_API_KEY;
   
   const response = await axios.get(weatherUrl);
   
