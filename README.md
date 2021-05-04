@@ -2,8 +2,7 @@
 ##### Node JS and Express JS project
 
 <br>
-
-##### Weather app shows you the weather of the given location. 
+#### Weather app shows you the weather of the given location. 
 <br/>
 It uses Node JS and Express JS in the backend and simple HTML and CSS in the frontend. It uses MapBox API to find the coordinates of the given location and OpenWeather API to get the weather for the coordinates of the location.
 
