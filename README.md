@@ -1,6 +1,6 @@
 # weather-website
-#### Node JS and Express JS project
-<br>
+##### Node JS and Express JS project
+
 ## Weather App
 ##### This website shows you the weather of the given location. 
 <br/>
