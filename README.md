@@ -1,8 +1,9 @@
 # weather-website
 Node JS and Express JS project
-
+<br/>
 ### Weather App
-###### This website shows you the weather of the given location. 
+##### This website shows you the weather of the given location. 
+<br/>
 It uses Node JS and Express JS in the backend and simple HTML and CSS in the frontend. It uses MapBox API to find the coordinates of the given location and OpenWeather API to get the weather for the coordinates of the location.
 
 #### Features of this project :-
