@@ -29,3 +29,39 @@ It uses Node JS and Express JS in the backend and simple HTML and CSS in the fro
   <li>Templating and View Engine</li>
   <li>Error Handling</li>
 </ol>
+
+<br>
+<br>
+
+#### To get weather of your location :
+<ol>
+  <li>Enter your location in the location input box</li>
+  <li>Try to be very specific about your location</li>
+  <li>Click the search button</li>
+  <li>You will get your weather data</li>
+</ol>
+
+#### Following data are shown in weather card :
+<ol>
+  <li>Temperature</li>
+  <li>Weather description</li>
+  <li>City, Country code</li>
+  <li>Date</li>
+</ol>
+
+#### Following data are shown in details section :
+<ol>
+  <li>Minimum temperature</li>
+  <li>Maximum temperature</li>
+  <li>Wind Speed</li>
+  <li>Humidity</li>
+</ol>
+
+#### Didn't get the weather ?
+<ol>
+  <li>"Loading..." means your weather is being fetched</li>
+  <li>If you are not specific about your location then the weather may not be accurate</li>
+  <li>"Location Not Found" means the coordinates of your location can't be found</li>
+  <li>"Weather Not Found" means the weather data of your location is not available</li>
+  <li>"404" means the page you are trying to access is not there</li>
+</ol>
