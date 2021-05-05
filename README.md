@@ -31,9 +31,8 @@ It uses Node JS and Express JS in the backend and simple HTML and CSS in the fro
 </ol>
 
 <br>
-<br>
 
-#### To get weather of your location :
+### To get weather of your location :
 <ol>
   <li>Enter your location in the location input box</li>
   <li>Try to be very specific about your location</li>
@@ -41,7 +40,9 @@ It uses Node JS and Express JS in the backend and simple HTML and CSS in the fro
   <li>You will get your weather data</li>
 </ol>
 
-#### Following data are shown in weather card :
+<br>
+
+### Following data are shown in weather card :
 <ol>
   <li>Temperature</li>
   <li>Weather description</li>
@@ -49,7 +50,9 @@ It uses Node JS and Express JS in the backend and simple HTML and CSS in the fro
   <li>Date</li>
 </ol>
 
-#### Following data are shown in details section :
+<br>
+
+### Following data are shown in details section :
 <ol>
   <li>Minimum temperature</li>
   <li>Maximum temperature</li>
@@ -57,7 +60,9 @@ It uses Node JS and Express JS in the backend and simple HTML and CSS in the fro
   <li>Humidity</li>
 </ol>
 
-#### Didn't get the weather ?
+<br>
+
+### Didn't get the weather ?
 <ol>
   <li>"Loading..." means your weather is being fetched</li>
   <li>If you are not specific about your location then the weather may not be accurate</li>
