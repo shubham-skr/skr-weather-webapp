@@ -5,6 +5,7 @@
 https://skr-weather-app.herokuapp.com/
 
 <br>
+<br>
 
 <img src="./public/img/site-image.png" alt="site-image">
 
