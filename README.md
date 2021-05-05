@@ -2,10 +2,10 @@
 ##### Node JS and Express JS project
 
 <br>
-<img src="./public/img/site-image.png" alt="site-image">
+https://skr-weather-app.herokuapp.com/
 <br>
 
-https://skr-weather-app.herokuapp.com/
+<img src="./public/img/site-image.png" alt="site-image">
 
 <br>
 
