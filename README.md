@@ -8,7 +8,7 @@ https://skr-weather-app.herokuapp.com/
 <br>
 <br>
 
-![site-image](./public/img/site-image.png | width=100)
+![](./public/img/site-image.png | width=100)
 
 <br>
 
