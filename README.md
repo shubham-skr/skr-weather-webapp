@@ -1,10 +1,14 @@
 # weather-website
 ##### Node JS and Express JS project
 
+https://skr-weather-app.herokuapp.com/
+
 <br>
 
 #### Weather app shows you the weather of the given location. 
 It uses Node JS and Express JS in the backend and simple HTML and CSS in the frontend. It uses MapBox API to find the coordinates of the given location and OpenWeather API to get the weather for the coordinates of the location.
+
+<br>
 
 ### Features of this project :-
 <br>
@@ -19,4 +23,3 @@ It uses Node JS and Express JS in the backend and simple HTML and CSS in the fro
   <li>Templating and View Engine</li>
   <li>Error Handling</li>
 </ol>
-https://skr-weather-app.herokuapp.com/
