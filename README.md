@@ -1,6 +1,8 @@
 # weather-website
 ##### Node JS and Express JS project
 
+<br>
+
 https://skr-weather-app.herokuapp.com/
 
 <br>
@@ -11,7 +13,6 @@ It uses Node JS and Express JS in the backend and simple HTML and CSS in the fro
 <br>
 
 ### Features of this project :-
-<br>
 <ol>
   <li>Asynchronous</li>
   <li>Promises, async and await</li>
