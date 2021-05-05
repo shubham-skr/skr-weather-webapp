@@ -42,7 +42,7 @@ It uses Node JS and Express JS in the backend and simple HTML and CSS in the fro
 
 <br>
 
-### Following data are shown in weather card :
+### Data shown in weather card :
 <ol>
   <li>Temperature</li>
   <li>Weather description</li>
@@ -52,7 +52,7 @@ It uses Node JS and Express JS in the backend and simple HTML and CSS in the fro
 
 <br>
 
-### Following data are shown in details section :
+### Data shown in details section :
 <ol>
   <li>Minimum temperature</li>
   <li>Maximum temperature</li>
