@@ -8,14 +8,15 @@ It uses Node JS and Express JS in the backend and simple HTML and CSS in the fro
 
 ### Features of this project :-
 <br>
-1. Asynchronous
-2. Promises, async and await
-Express JS and web server
-API
-OpenWeather API and MapBox API
-Handlebars, axios and dotenv
-Dynamic and Static Pages
-Templating and View Engine
-Error Handling
-
+<ol>
+  <li>Asynchronous</li>
+  <li>Promises, async and await</li>
+  <li>Express JS and web server</li>
+  <li>Working with API</li>
+  <li>OpenWeather API and MapBox API</li>
+  <li>Handlebars, axios and dotenv</li>
+  <li>Dynamic and Static Pages</li>
+  <li>Templating and View Engine</li>
+  <li>Error Handling</li>
+</ol>
 https://skr-weather-app.herokuapp.com/
