@@ -2,6 +2,7 @@
 ##### Node JS and Express JS project
 
 <br>
+
 https://skr-weather-app.herokuapp.com/
 
 <br>
@@ -12,19 +13,20 @@ https://skr-weather-app.herokuapp.com/
 
 <br>
 
-#### Weather app shows you the weather of the given location. 
+#### Weather app shows you the weather for the given location. 
 It uses Node JS and Express JS in the backend and simple HTML and CSS in the frontend. It uses MapBox API to find the coordinates of the given location and OpenWeather API to get the weather for the coordinates of the location.
 
 <br>
 
 ### Features of this project :-
 <ol>
-  <li>Asynchronous</li>
-  <li>Promises, async and await</li>
-  <li>Express JS and web server</li>
+  <li>Asynchronous - promises, async and await</li>
+  <li>Express JS</li>
   <li>Working with API</li>
   <li>OpenWeather API and MapBox API</li>
-  <li>Handlebars, axios and dotenv</li>
+  <li>Handlebars<li>
+  <li>HTTP request using axios</li>
+  <li>Setting up environment variables using dotenv</li>
   <li>Dynamic and Static Pages</li>
   <li>Templating and View Engine</li>
   <li>Error Handling</li>
@@ -34,10 +36,9 @@ It uses Node JS and Express JS in the backend and simple HTML and CSS in the fro
 
 ### To get weather of your location :
 <ol>
-  <li>Enter your location in the location input box</li>
-  <li>Try to be very specific about your location</li>
+  <li>Enter your location in the Location input box</li>
+  <li>Try to be specific about your location to get accurate results</li>
   <li>Click the search button</li>
-  <li>You will get your weather data</li>
 </ol>
 
 <br>
@@ -47,7 +48,7 @@ It uses Node JS and Express JS in the backend and simple HTML and CSS in the fro
   <li>Temperature</li>
   <li>Weather description</li>
   <li>City, Country code</li>
-  <li>Date</li>
+  <li>Date (MonthName DD, YYYY)</li>
 </ol>
 
 <br>
