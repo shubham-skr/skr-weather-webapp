@@ -24,7 +24,7 @@ It uses Node JS and Express JS in the backend and simple HTML and CSS in the fro
   <li>Express JS</li>
   <li>Working with API</li>
   <li>OpenWeather API and MapBox API</li>
-  <li>Handlebars<li>
+  <li>Handlebars</li>
   <li>HTTP request using axios</li>
   <li>Setting up environment variables using dotenv</li>
   <li>Dynamic and Static Pages</li>
