@@ -18,7 +18,7 @@ It uses Node JS and Express JS in the backend and simple HTML and CSS in the fro
 
 <br>
 
-### Features of this project :-
+### Features of this project
 <ol>
   <li>Asynchronous - promises, async and await</li>
   <li>Express JS</li>
@@ -34,7 +34,7 @@ It uses Node JS and Express JS in the backend and simple HTML and CSS in the fro
 
 <br>
 
-### To get weather of your location  :-
+### To get weather of your location
 <ol>
   <li>Enter your location in the Location input box</li>
   <li>Try to be specific about your location to get accurate results</li>
@@ -43,7 +43,7 @@ It uses Node JS and Express JS in the backend and simple HTML and CSS in the fro
 
 <br>
 
-### Data shown in weather card  :-
+### Data shown in weather card
 <ol>
   <li>Temperature</li>
   <li>Weather description</li>
@@ -53,7 +53,7 @@ It uses Node JS and Express JS in the backend and simple HTML and CSS in the fro
 
 <br>
 
-### Data shown in details section  :-
+### Data shown in details section
 <ol>
   <li>Minimum temperature</li>
   <li>Maximum temperature</li>
