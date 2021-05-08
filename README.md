@@ -48,7 +48,7 @@ It uses Node JS and Express JS in the backend and simple HTML and CSS in the fro
   <li>Temperature</li>
   <li>Weather description</li>
   <li>City, Country code</li>
-  <li>Date (MonthName DD, YYYY)</li>
+  <li>Date (Month DD, YYYY)</li>
 </ol>
 
 <br>
