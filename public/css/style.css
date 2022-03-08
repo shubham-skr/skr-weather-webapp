@@ -1,6 +1,6 @@
 /*=== GLOBAL CSS VARIABLES ===*/
 :root {
-  --primary-color: #ffef00;
+  --primary-color: #ffee00;
   --text-color: #000;
   --card-bg: #fff;
 }
@@ -23,7 +23,7 @@ a,
 
 body {
   margin-top: 2.5rem;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: var(--text-color);
   background: #fff;
 }
@@ -50,7 +50,7 @@ body {
 .weather-header {
   width: 100%;
   max-width: 1400px;
-  height: 2.5rem;
+  height: 3.5rem;
   position: fixed;
   top: 0;
   margin-left: auto;
@@ -60,14 +60,14 @@ body {
 }
 
 .header-content {
-  height: 2.5rem;
+  margin-top: 0.5rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 .header-title {
-  font-size: 1rem;
+  font-size: 1.7rem;
   font-weight: 700;
 }
 
@@ -79,8 +79,8 @@ body {
 .menu-list-item {
   margin-left: 2rem;
   display: inline-block;
-  font-size: 0.85rem;
-  font-weight: 600;
+  font-size: 1rem;
+  font-weight: 700;
 }
 
 .menu-list-item a {
@@ -121,7 +121,7 @@ body {
 }
 
 label {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   font-weight: 700;
   margin-right: 2rem;
 }
@@ -130,8 +130,8 @@ input {
   width: 15rem;
   padding: 0.3rem 0.6rem;
   margin-right: 1rem;
-  font-size: 0.85rem;
-  font-family: "Poppins", sans-serif;
+  font-size: 0.9rem;
+  font-family: 'Poppins', sans-serif;
   font-weight: 500;
   color: var(--text-color);
   border: 0.12rem solid rgba(0, 0, 0, 0.2);
@@ -142,9 +142,9 @@ input {
 button {
   padding: 0.2rem 0.6rem;
   display: inline-block;
-  font-size: 0.8rem;
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
+  font-size: 0.9rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
   text-align: center;
   text-decoration: none;
   background-color: var(--primary-color);
@@ -225,13 +225,13 @@ button:hover {
 
 .details-title {
   position: relative;
-  font-size: 1.1rem;
-  font-weight: 600;
+  font-size: 1.2rem;
+  font-weight: 700;
   color: rgba(0, 0, 0, 0.5);
 }
 
 .details-title::after {
-  content: " ";
+  content: ' ';
   display: inline-block;
   width: 80%;
   height: 0.1rem;
@@ -242,7 +242,7 @@ button:hover {
   margin-top: 1.5rem;
   display: flex;
   flex-wrap: wrap;
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 
 .details-content h4 {
@@ -280,7 +280,7 @@ button:hover {
 
 .about-img {
   margin-right: 5rem;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
 .about-img img {
@@ -317,7 +317,7 @@ button:hover {
 .about-text,
 .help-text {
   margin-top: 1.5rem;
-  font-size: 0.9rem;
+  font-size: 1rem;
   font-weight: 700;
 }
 
@@ -333,7 +333,7 @@ button:hover {
 .about-list,
 .help-list {
   margin-top: 0.7rem;
-  font-size: 0.9rem;
+  font-size: 1rem;
   font-weight: 600;
   list-style-position: inside;
 }
@@ -356,7 +356,7 @@ button:hover {
   justify-content: center;
   font-size: 0.65rem;
   font-weight: 700;
-  letter-spacing: .5px;
+  letter-spacing: 0.5px;
   background-color: var(--primary-color);
 }
 
@@ -403,10 +403,10 @@ button:hover {
     display: block;
   }
 
-  .menu-list-item a{
+  .menu-list-item a {
     font-size: 1.2rem;
-     color: #fff;
-     transition: all .5s ease;
+    color: #fff;
+    transition: all 0.5s ease;
   }
 
   .menu-list-item a:hover {

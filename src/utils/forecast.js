@@ -1,18 +1,19 @@
 // npm module
-const axios = require("axios");  
+const axios = require('axios');
 require('dotenv').config();
 
 // Fetch and return the weather of the given coordinates
 const forecast = async (latitude, longitude) => {
   let weatherUrl =
-    "https://api.openweathermap.org/data/2.5/weather?lat=" +
+    'https://api.openweathermap.org/data/2.5/weather?lat=' +
     latitude +
-    "&lon=" +
+    '&lon=' +
     longitude +
-    "&units=metric&appid=" + process.env.WEATHER_API_KEY;
-  
+    '&units=metric&appid=' +
+    process.env.WEATHER_API_KEY;
+
   const response = await axios.get(weatherUrl);
-  
+
   return {
     country: response.data.sys.country,
     location: response.data.name,
