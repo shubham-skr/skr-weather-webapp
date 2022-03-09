@@ -1,43 +1,39 @@
-# weather-website
-##### Node JS and Express JS project
+# skr-weather-webapp
+##### Node.js and Express project
 
 <br>
 <br>
 
-https://skr-weather-app.herokuapp.com/
-
-<br>
-<br>
-
-<img src="./public/img/site-image.png" width="500">
+<strong>Link :-  </strong>  <i> https://skr-weather-app.herokuapp.com/ </i>
 
 <br>
 
-#### Weather app shows you the weather for the given location. 
-It uses Node JS and Express JS in the backend and simple HTML and CSS in the frontend. It uses MapBox API to find the coordinates of the given location and OpenWeather API to get the weather for the coordinates of the location.
+<img src="./readme_images/home.png" width="700">
 
 <br>
 
-### Features of this project
+skr-weather-webapp is a weather application that shows the weather of the given location. It is built using Node JS and Express JS in the backend and simple HTML and CSS in the frontend. It uses MapBox&nbsp;API to find the coordinates of the given location and OpenWeather&nbsp;API to get the weather for the coordinates of the location.
+
+<br>
+
+### More details
 <ol>
-  <li>Asynchronous - promises, async and await</li>
-  <li>Express JS</li>
-  <li>Working with API</li>
-  <li>OpenWeather API and MapBox API</li>
-  <li>Handlebars</li>
-  <li>HTTP request using Axios</li>
-  <li>Setting up environment variables using Dotenv</li>
-  <li>Dynamic and Static Pages</li>
-  <li>Templates and View Engine</li>
-  <li>Error Handling</li>
+<li>Creates web server using express</li>
+<li>Cofigure express to serve static assets</li>
+<li>Uses axios npm module to work with http requests</li>
+<li>Uses MapBox API to get latitude and longitude</li>
+<li>Uses OpenWeather API to get weather details</li>
+<li>Uses hbs as view engine</li>
+<li>Creates dynamic pages with templating</li>
+<li>Access API from browser</li> 
+<li>Handles all the errors</li>
 </ol>
 
 <br>
 
 ### To get weather of your location
 <ol>
-  <li>Enter your location in the Location input box</li>
-  <li>Try to be specific about your location to get accurate results</li>
+  <li>Enter your location in the location input box</li>
   <li>Click the search button</li>
 </ol>
 
@@ -65,9 +61,8 @@ It uses Node JS and Express JS in the backend and simple HTML and CSS in the fro
 
 ### Didn't get the weather ?
 <ol>
-  <li>"Loading..." means your weather is being fetched</li>
-  <li>If you are not specific about your location then the weather may not be accurate</li>
-  <li>"Location Not Found" means the coordinates of your location can't be found</li>
-  <li>"Weather Not Found" means the weather data of your location is not available</li>
-  <li>"404" means the page you are trying to access is not there</li>
+  <li>"Loading..." - weather is being fetched</li>
+  <li></li>
+  <li>"Loading..." - weather is being fetched means the coordinates of your location can't be found</li>
+  <li>"Weather Not Found" - means the weather of location is not available</li>
 </ol>
