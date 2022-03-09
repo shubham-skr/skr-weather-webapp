@@ -278,6 +278,17 @@ button:hover {
   align-items: center;
 }
 
+.help-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.help-item {
+  width: 45%;
+  margin-top: 1.5rem;
+}
+
 .about-img {
   margin-right: 5rem;
   margin-top: 1rem;
@@ -299,8 +310,7 @@ button:hover {
   width: 15rem;
 }
 
-.about-title,
-.help-title {
+.about-title {
   font-size: 2.5rem;
 }
 
@@ -316,13 +326,13 @@ button:hover {
 
 .about-text,
 .help-text {
-  margin-top: 1.5rem;
   font-size: 1rem;
   font-weight: 700;
 }
 
 .about-text {
   font-weight: 600;
+  margin-top: 1.5rem;
 }
 
 .error-text {
@@ -364,6 +374,16 @@ button:hover {
 @media only screen and (max-width: 1000px) {
   .container {
     width: 80%;
+  }
+
+  .help-content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .help-item {
+    width: 90%;
   }
 }
 
