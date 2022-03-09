@@ -16,7 +16,7 @@ skr-weather-webapp is a weather application that shows the weather of the given 
 
 <br>
 
-### More details
+### Features
 <ol>
 <li>Creates web server using express</li>
 <li>Cofigure express to serve static assets</li>
@@ -31,11 +31,19 @@ skr-weather-webapp is a weather application that shows the weather of the given 
 
 <br>
 
+<img src="./readme_images/about.png" width="700">
+
+<br>
+
 ### To get weather of your location
 <ol>
   <li>Enter your location in the location input box</li>
   <li>Click the search button</li>
 </ol>
+
+<br>
+
+<img src="./readme_images/home2.png" width="700">
 
 <br>
 
@@ -61,8 +69,13 @@ skr-weather-webapp is a weather application that shows the weather of the given 
 
 ### Didn't get the weather ?
 <ol>
-  <li>"Loading..." - weather is being fetched</li>
-  <li></li>
-  <li>"Loading..." - weather is being fetched means the coordinates of your location can't be found</li>
-  <li>"Weather Not Found" - means the weather of location is not available</li>
+  <li>"Loading..." &nbsp;-&nbsp; weather is being fetched</li>
+  <li>"Loading..." &nbsp;-&nbsp; weather is being fetched means the coordinates of your location can't be found</li>
+  <li>"Weather Not Found" &nbsp;-&nbsp; means the weather of location is not available</li>
 </ol>
+
+<br>
+
+<img src="./readme_images/help.png" width="700">
+
+<br>
